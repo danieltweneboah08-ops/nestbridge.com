@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NestBridge Poultry Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f9f6ef;
+      color: #333;
+    }
+    header {
+      background-color: #6b7a4a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 1.1em;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #6b7a4a;
+    }
+    .cta {
+      background-color: #efe9db;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background-color: #6b7a4a;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NestBridge</h1>
+    <p>Connecting Poultry Farmers & Buyers in Kumasi</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      NestBridge is a poultry marketing and supply service based in Kumasi, Ghana. 
+      We connect verified poultry farmers with bulk buyers such as chop bars, bakeries, hotels, hostels, and retailers.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Egg Supply</h3>
+        <p>Reliable supply of fresh eggs from trusted poultry farms.</p>
+      </div>
+      <div class="card">
+        <h3>Poultry Marketing</h3>
+        <p>Helping farmers find consistent buyers at fair prices.</p>
+      </div>
+      <div class="card">
+        <h3>Bulk Orders</h3>
+        <p>Supplying eggs and poultry to businesses that buy in large quantities.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Work With Us</h2>
+    <p>
+      Whether you are a poultry farmer or a bulk buyer, NestBridge is ready to serve you.
+    </p>
+    <a href="https://wa.me/233XXXXXXXXX">Contact Us on WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>© 2025 NestBridge Poultry Services | Kumasi, Ghana</p>
+  </footer>
+
+</body>
+</html>
